@@ -1,6 +1,6 @@
 // import './style.css'
-import './styles.scss'
-// import 'bootstrap/dist/css/bootstrap.min.css'
+// import './styles.scss'
+import 'bootstrap/dist/css/bootstrap.min.css'
 // import { setupCounter } from './counter.js'
 // import * as bootstrap from 'bootstrap'
 
