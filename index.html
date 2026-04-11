@@ -7,12 +7,39 @@
     <title>frontend-project-11</title>
   </head>
 
-    <body>
-    <div id="app" class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and Vite!</h1>
-      <button class="btn btn-primary">Primary button</button>
+  <body>
+    <div id="app" class="d-flex flex-column min-vh-100">
+      <main class="text-bg-dark">
+        <div class="container py-5 px-3 px-lg-5">
+          <div class="row align-items-start">
+            <div class="col-12 col-lg-8 mx-auto">
+              <h1>RSS-агрегатор</h1>
+              <p>Начните читать RSS сегодня! Это легко, это красиво.</p>
+              <form>
+                <div class="mb-3">
+                  <div class="d-flex gap-2">
+                    <input
+                      type="url"
+                      class="form-control form-control-sm"
+                      placeholder="ссылка RSS"
+                      aria-label=".form-control-sm example"
+                      name="rssLink"
+                    />
+                    <button type="button" class="btn btn-light">
+                      Добавить
+                    </button>
+                  </div>
+                  <p id="linkHelp" class="form-text text-white-50">Пример: hexlet.ru</p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="mt-auto text-bg-light text-center py-3">
+        <p class="mb-0">Created by <a href="#">Hexlet</a></p>
+      </footer>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
-
